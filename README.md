@@ -2,7 +2,17 @@
 
 ## iCloud Authentication Token Extractor (Jailbroken)
 
-A Jailbroken executable which could dump the iCloud account token saved in the iDevices. What is Token ?? If you get it, you wont need to know the credentials or the password to access the iCloud account. You can use it on any other reverse-engineering or educational purposes. (e.g. Elcomsoft Password Breaker's Download from iCloud Account feature). You would need a mac based machine to compile this.
+A Jailbroken executable which could dump the iCloud account token saved in the iDevices. What is Token ?? If you get it, you wont need to know the credentials or the password to access the iCloud account. You can use it on any other reverse-engineering or educational purposes. (e.g. Elcomsoft Password Breaker's Download from iCloud Account feature).
+
+It would give you two kind of information stored in keychain. They are iCloud Account ID and a token which was automatically generated while signing into the iCloud API. 
+
+For example,
+
+8325186261:AQAAAABWIlwNcjGZBat9sSMxDnkk1nBCnjJGwZM=
+
+The first number on that line represented the account id and the second one is token. But remember always, that token can be expired.
+
+You would need a mac based machine to compile this.
  
 Based and enhanced on [Keychain-Dumper](http://github.com/ptoomey3/Keychain-Dumper).
 
